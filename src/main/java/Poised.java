@@ -107,6 +107,8 @@ public class Poised {
                 // If the user inputs anything else, this message is shown and the while loop repeats.
                 default -> System.out.println(INPUT_ERROR);
             }
+
+            userInput.close();
         }
     }
 
